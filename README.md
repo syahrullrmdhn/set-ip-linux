@@ -149,4 +149,3 @@ Silakan gunakan dan modifikasi sesuai kebutuhan! 🎉
 
 🚀 Dibuat dengan ❤️ oleh Syahrul Ramadhan | C-Tech.id  
 🔗 GitHub: [https://github.com/syahrullrmdhn/set-ip-linux](https://github.com/syahrullrmdhn/set-ip-linux)  
-```

@@ -1,16 +1,16 @@
 ```
-# 🚀 Set IP Address di Linux dengan Netplan
+🚀 Set IP Address di Linux dengan Netplan
 
 **Dibuat oleh: Syahrul Ramadhan | [C-Tech.id](https://c-tech.id)**
 > 🔗 **Proyek GitHub:** [https://github.com/syahrullrmdhn/set-ip-linux](https://github.com/syahrullrmdhn/set-ip-linux)
 
 ---
 
-## 📝 **Tentang Proyek**
+📝 **Tentang Proyek**
 Skrip ini membantu pengguna **mengatur IP Address statis di Linux menggunakan Netplan** dengan cara yang mudah dan interaktif.  
 Tersedia **animasi efek ketikan, emoji, warna, serta validasi otomatis** untuk memeriksa path Netplan dan nama interface.  
 
-## 🎯 **Fitur**
+🎯 **Fitur**
 ✅ **Interaktif** – Pengguna diminta mengisi konfigurasi melalui input CLI  
 ✅ **Cek Path Netplan** – Jika path tidak ditemukan, skrip memberi opsi untuk mengubahnya  
 ✅ **Cek Nama Interface** – Menyediakan perintah untuk menemukan interface jaringan  
@@ -19,21 +19,21 @@ Tersedia **animasi efek ketikan, emoji, warna, serta validasi otomatis** untuk m
 
 ---
 
-## 🚀 **Cara Menggunakan Skrip**
-### 1️⃣ **Download Skrip**
+🚀 **Cara Menggunakan Skrip**
+1️⃣ **Download Skrip**
 Clone repository ini atau download skripnya:
 ```sh
 git clone https://github.com/syahrullrmdhn/set-ip-linux.git
 cd set-ip-linux
 ```
 
-### 2️⃣ **Jalankan Skrip**
+2️⃣ **Jalankan Skrip**
 ```sh
 chmod +x set-ip.sh
 sudo ./set-ip.sh
 ```
 
-### 3️⃣ **Masukkan Detail Konfigurasi**
+3️⃣ **Masukkan Detail Konfigurasi**
 Kamu akan diminta memasukkan informasi berikut:  
 - **Interface** (contoh: `enp0s3`, `eth0`, `wlan0`)  
 - **IP Address** (contoh: `192.168.1.100/24`)  
@@ -47,7 +47,7 @@ ip link show
 
 ---
 
-## 📌 **Contoh Output Skrip**
+📌 **Contoh Output Skrip**
 ```sh
 ========================================
        🚀 Set IP Address - C-Tech.id
@@ -95,8 +95,8 @@ network:
 
 ---
 
-## ❓ **Troubleshooting**
-### 🔹 **1. File Netplan Tidak Ditemukan**
+❓ **Troubleshooting**
+🔹 **1. File Netplan Tidak Ditemukan**
 **Pesan Error:**  
 ```sh
 PERINGATAN: File konfigurasi Netplan tidak ditemukan!
@@ -111,7 +111,7 @@ Jika ada file lain, jalankan skrip lagi dan masukkan path yang benar.
 
 ---
 
-### 🔹 **2. Interface Tidak Ditemukan**
+ 🔹 **2. Interface Tidak Ditemukan**
 **Pesan Error:**  
 Jika setelah menjalankan `netplan apply` koneksi tidak aktif, mungkin nama interface salah.  
 **Solusi:**  
@@ -123,7 +123,7 @@ Pastikan interface yang dimasukkan sesuai dengan yang terdeteksi oleh sistem.
 
 ---
 
-### 🔹 **3. Tidak Bisa Akses Internet Setelah Mengatur IP Statis**
+ 🔹 **3. Tidak Bisa Akses Internet Setelah Mengatur IP Statis**
 **Solusi:**  
 - Cek apakah IP, Gateway, dan DNS sudah benar.  
 - Coba restart jaringan dengan:
@@ -137,13 +137,13 @@ sudo netplan apply
 
 ---
 
-## 📜 **Lisensi**
+ 📜 **Lisensi**
 Skrip ini tersedia secara open-source di bawah lisensi **MIT**.  
 Silakan gunakan dan modifikasi sesuai kebutuhan! 🎉  
 
 ---
 
-## 📢 **Kontribusi**
+ 📢 **Kontribusi**
 🔹 Jika ingin berkontribusi atau melaporkan bug, silakan buat **issue** atau **pull request** di repository ini.  
 🔹 Jangan lupa **⭐ Star repository ini** jika skrip ini bermanfaat untukmu!  
 
@@ -153,7 +153,7 @@ Silakan gunakan dan modifikasi sesuai kebutuhan! 🎉
 
 ---
 
-### 🔥 **Fitur README.md yang Ditingkatkan**
+ 🔥 **Fitur README.md yang Ditingkatkan**
 ✅ **Struktur yang Jelas** – Mudah dipahami dengan **bagian-bagian penting** seperti penggunaan, contoh output, troubleshooting, dan kontribusi.  
 ✅ **Contoh Output Nyata** – Pengguna bisa melihat apa yang terjadi saat menjalankan skrip.  
 ✅ **Troubleshooting Section** – Memudahkan pengguna menyelesaikan masalah umum.  

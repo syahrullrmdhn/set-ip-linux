@@ -150,13 +150,3 @@ Silakan gunakan dan modifikasi sesuai kebutuhan! 🎉
 🚀 Dibuat dengan ❤️ oleh Syahrul Ramadhan | C-Tech.id  
 🔗 GitHub: [https://github.com/syahrullrmdhn/set-ip-linux](https://github.com/syahrullrmdhn/set-ip-linux)  
 ```
-
----
-
- 🔥 Fitur README.md yang Ditingkatkan
-✅ Struktur yang Jelas – Mudah dipahami dengan bagian-bagian penting seperti penggunaan, contoh output, troubleshooting, dan kontribusi.  
-✅ Contoh Output Nyata – Pengguna bisa melihat apa yang terjadi saat menjalankan skrip.  
-✅ Troubleshooting Section – Memudahkan pengguna menyelesaikan masalah umum.  
-✅ GitHub & Branding – Menampilkan link proyek dan branding C-Tech.id.  
-
-🚀 Sekarang siap dipublikasikan di GitHub dengan tampilan profesional! 😎
